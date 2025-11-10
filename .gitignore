@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# PyCharm files
+.idea/
+
+# Environment files
+.env
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Logs and database
+*.log
+*.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# VSCode files (if any)
+.vscode/
