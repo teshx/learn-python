@@ -61,8 +61,17 @@ for i in range(100, 50 ,-1):
 #combine for loop and if
 
 for i in range(1 , 100):
-    if i%3==0:
-        print(i,"fizz")
+    if i%3==0 and i%5==0:
+        print(i,"fizzbuzz")
     elif i%5==0:
         print(i, "buzz")
+    elif i%3==0:
+        print(i,"fizz") 
     else: print("number", i)
+
+
+    # while loop
+x = input("Enter a number less than 10: ")
+while x != "exit":
+    print(x)
+    x = input("Enter a number less than 10: ")
